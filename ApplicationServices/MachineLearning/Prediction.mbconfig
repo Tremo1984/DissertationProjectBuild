@@ -1,0 +1,759 @@
+﻿{
+  "TrainingTime": 10,
+  "Scenario": "Forecasting",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\treml\\Desktop\\C&CInterviewFile.txt",
+    "Delimiter": "|",
+    "DecimalMarker": ".",
+    "HasHeader": false,
+    "ColumnProperties": [
+      {
+        "ColumnName": "col0",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "col1",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "col2",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "col3",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 1,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.57400000095367432
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 9725746362.8734417,
+        "RuntimeInSeconds": 0.871999979019165
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 256345.46929641647,
+        "RuntimeInSeconds": 0.054999999701976776
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.018999999389052391
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 2648035733.3360281,
+        "RuntimeInSeconds": 0.89200001955032349
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.026000000536441803
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.017000000923871994
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.023000000044703484
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 111603.78648773525,
+        "RuntimeInSeconds": 0.092000000178813934
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1977745516.3652432,
+        "RuntimeInSeconds": 0.49700000882148743
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 71791.091057317128,
+        "RuntimeInSeconds": 0.046000000089406967
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1455005681.1807604,
+        "RuntimeInSeconds": 0.26800000667572021
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.027000000700354576
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 431742.4934453406,
+        "RuntimeInSeconds": 0.090999998152256012
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.017000000923871994
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 405582.6024828974,
+        "RuntimeInSeconds": 0.12200000137090683
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 215373.27317195141,
+        "RuntimeInSeconds": 0.016000000759959221
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 328988.10899362306,
+        "RuntimeInSeconds": 0.074000000953674316
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 87925.770584055732,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 180670.28380339695,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 117234.36077874097,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 175851.54116811146,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 122606.62924980851,
+        "RuntimeInSeconds": 0.043999999761581421
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 287164.36422926851,
+        "RuntimeInSeconds": 0.061000000685453415
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 238104.11232735985,
+        "RuntimeInSeconds": 0.035000000149011612
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 493046.80199104833,
+        "RuntimeInSeconds": 0.054000001400709152
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 559939.82945312967,
+        "RuntimeInSeconds": 0.059999998658895493
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 272585.64566168922,
+        "RuntimeInSeconds": 0.046999998390674591
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 103621.51436839746,
+        "RuntimeInSeconds": 0.046000000089406967
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 203055.86926163943,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 71791.091057317128,
+        "RuntimeInSeconds": 0.046999998390674591
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 203055.86926163943,
+        "RuntimeInSeconds": 0.043999999761581421
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.018999999389052391
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.023000000044703484
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.027000000700354576
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 161861.97980254659,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.028000000864267349
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 431742.4934453406,
+        "RuntimeInSeconds": 0.10100000351667404
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1646711741.5907252,
+        "RuntimeInSeconds": 0.29800000786781311
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1534515143.8302286,
+        "RuntimeInSeconds": 0.25099998712539673
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 23244325400.9223,
+        "RuntimeInSeconds": 0.15299999713897705
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.030999999493360519
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.017000000923871994
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 191068.63169029081,
+        "RuntimeInSeconds": 0.086999997496604919
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 203055.86926163943,
+        "RuntimeInSeconds": 0.0689999982714653
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.02199999988079071
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 287164.36422926851,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.017999999225139618
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 215373.27317195141,
+        "RuntimeInSeconds": 0.026000000536441803
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 109662.70299787435,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 817494.2882109941,
+        "RuntimeInSeconds": 0.076999999582767487
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.030999999493360519
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 153695.54361789415,
+        "RuntimeInSeconds": 0.059999998658895493
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 109662.70299787435,
+        "RuntimeInSeconds": 0.059999998658895493
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 224167.60997789132,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 58617.180389370485,
+        "RuntimeInSeconds": 0.048999998718500137
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 223207.57297547051,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 272585.64566168922,
+        "RuntimeInSeconds": 0.034000001847743988
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 559939.82945312967,
+        "RuntimeInSeconds": 0.05299999937415123
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 263777.31175216718,
+        "RuntimeInSeconds": 0.032000001519918442
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 203055.86926163943,
+        "RuntimeInSeconds": 0.041999999433755875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 90335.141901698473,
+        "RuntimeInSeconds": 0.030999999493360519
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 122606.62924980851,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 109662.70299787435,
+        "RuntimeInSeconds": 0.048000000417232513
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 143582.18211463426,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 129423.22996433059,
+        "RuntimeInSeconds": 0.035000000149011612
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 58617.180389370485,
+        "RuntimeInSeconds": 0.041000001132488251
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 411887.37318835111,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.028999999165534973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.018999999389052391
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.017999999225139618
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1534814407.939471,
+        "RuntimeInSeconds": 0.29800000786781311
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.016000000759959221
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.028000000864267349
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.016000000759959221
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 58617.180389370485,
+        "RuntimeInSeconds": 0.090999998152256012
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.02500000037252903
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.027000000700354576
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1586945193.4892428,
+        "RuntimeInSeconds": 0.29499998688697815
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 252122.02597313866,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1874102753.000598,
+        "RuntimeInSeconds": 0.13400000333786011
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.032000001519918442
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1597639314.3350282,
+        "RuntimeInSeconds": 0.28499999642372131
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1467919503.2749879,
+        "RuntimeInSeconds": 0.2630000114440918
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 508907.18991658976,
+        "RuntimeInSeconds": 0.029999999329447746
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 71791.091057317128,
+        "RuntimeInSeconds": 0.045000001788139343
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1385587014.8052518,
+        "RuntimeInSeconds": 0.19099999964237213
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 471677.12042540283,
+        "RuntimeInSeconds": 0.12200000137090683
+      }
+    ],
+    "Pipeline": {
+      "parameter": {
+        "0": {
+          "WindowSize": 37,
+          "SeriesLength": 3073,
+          "TrainSize": 1000,
+          "Horizon": 10,
+          "OutputColumnName": "col0",
+          "InputColumnName": "col0",
+          "ConfidenceLowerBoundColumn": "col0_LB",
+          "ConfidenceUpperBoundColumn": "col0_UB"
+        }
+      },
+      "estimators": [
+        "ForecastBySsa"
+      ]
+    },
+    "MetricName": "RMSE"
+  },
+  "Type": "TrainingConfig",
+  "Version": 2,
+  "TrainingOption": {
+    "Version": 0,
+    "Type": "ForecastingTrainingOption",
+    "UseCrossValidation": false,
+    "Seed": 0,
+    "OptimizeMetric": "RMSE",
+    "Horizon": 10,
+    "TimeColumn": "col2",
+    "LabelColumn": "col0",
+    "UseDefaultIndex": false
+  }
+}
